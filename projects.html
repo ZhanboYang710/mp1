@@ -1,0 +1,56 @@
+<!-- Webpage for Projects Section -->
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Zhanbo's Projects</h1>
+            <p>
+                This is the page showcasing Zhanbo Yang's Projects
+            </p>
+        </header>
+    
+        <nav>
+            <ul>
+                <li> <a href="./index.html">Home</a> </li>
+                <li> <a href="./experiences.html">Experiences</a> </li>
+                <li> <a href="./skillstack.html">Skills Stack</a> </li>
+                <li> <a href="./activities.html">Activities</a> </li>
+                <li> <a href="./education.html">Education</a> </li>
+                <li> <a href="https://music.youtube.com/channel/UClGlwJ5gGuD5O9OJz7jnyNw">The One</a> </li>
+            </ul>
+        </nav>
+    
+        <main>
+
+
+
+            <!-- here is the calculator -->
+                <!-- 2 inputs -->
+            First Number:
+            <input type="text" id="firstnum"></input>
+            Second Number:
+            <input type="text" id="secondnum"></input>
+                <!-- 6 buttons -->
+            <button onclick="addition()">+</button>
+            <button onclick="subtraction()">-</button>
+            <button onclick="multiplication()">*</button>
+            <button onclick="division()">/</button>
+            <button onclick="power()">**</button>
+            <button onclick="clear()">Clear</button>
+            <br>
+
+            <div id="calculation-output"></div>
+
+            <script src="calculate.js"></script>
+        </main>
+    
+        <footer>
+            <!-- copyrights statement -->
+            <p>All Rights Reserved by Zhanbo Yang <a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">Credits</a> &#169</p>
+        </footer>
+    </body>
+</html>
